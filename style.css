@@ -1,0 +1,864 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+
+/* //////////////////////utility class/////////////////////// */
+
+.letter-spacing {
+    letter-spacing: 3px;
+}
+
+.line-height {
+    line-height: 2rem;
+}
+
+.mgtp {
+    margin: 3rem 0rem 2rem 0rem;
+}
+
+/* //////////////////////utility class/////////////////////// */
+
+
+
+.width {
+    padding: o 10px;
+}
+
+#header {
+    padding: 0 20px;
+    width: 100%;
+    background-color: #262a2b;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    z-index: 2;
+}
+
+#header .header-div {
+    margin: 0 auto;
+    height: 60px;
+}
+
+#header .header-div::after {
+    content: "";
+    display: blologock;
+    clear: both;
+}
+
+.social-links {
+    font-size: 1.3rem;
+    color: white;
+    float: right;
+    /* border: 1px solid red; */
+}
+
+.links {
+    margin: 15px;
+}
+
+#header .header-div .social-links {
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 1.2rem;
+}
+
+
+#header .header-div .logo {
+    float: left;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+
+}
+
+#header .header-div a {
+    color: white;
+    text-decoration: none;
+    color: #ddd;
+    padding-bottom: 2px;
+}
+
+
+#header .header-div .social-links a:hover {
+    color: white;
+    transition: 0.3s;
+}
+
+#header .header-div .logo a:hover{
+    color: white;
+    transition: 0.3s;
+
+}
+
+#section1 {
+    height: 85vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./img/2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+#empty{
+    width: 100%;
+    height: 60px;
+    background-color: #262a2b;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* border: 1px solid white; */
+    text-align: center;
+}
+
+#section1 .container h1 {
+    font-size: 2.5rem;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.7rem;
+    margin-top: 20px;
+    text-shadow: 2px 3px 5px white;
+    /* margin-bottom: 50px; */
+}
+
+#section1 .container h2 {
+    font-size: 2rem;
+    color: white;
+    letter-spacing: 0.2rem;
+}
+
+#section1 .container .cv-button {
+    display: inline-block;
+    padding: 10px 20px;
+    /* margin: 40px 0px 0px 0px; */
+    background-color: #45a548;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 3rem;
+}
+
+#section1 .container .cv-button:hover{
+    background-color: #4CAF50;
+}
+
+#section2 {
+    width: 100%;
+    height: 100%;
+    background-color: #dedede;
+    padding: 70px 20px 70px 20px;
+    text-align: center;
+    /* margin: 20px; */
+}
+
+#section2 .about {
+    color: #262a2b;
+    width: 80%;
+    margin: 0 auto;
+    /* font-size: 1.2rem; */
+    /* margin: 20px; */
+    /* background-color: aqua; */
+}
+
+#section2 .about .heading {
+    margin: 1rem 0rem;
+}
+
+#section2 .about h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#section2 .about .para {
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+}
+
+
+#section2 .about .content {
+    font-size: 1.3rem;
+    margin: 50px 0px 10px 0px;
+
+    /* color: black; */
+}
+
+#section2 .about p {
+    font-size: 1rem;
+}
+
+.collage1{
+    padding-bottom: 5rem;
+}
+
+#section2 .about img {
+    width: 150px;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 3px 1px #929292;
+    margin: 1.2rem;
+    transition: 0.5s;
+}
+
+#section2 .about img:hover {
+    width: 180px;
+    transition: 0.5s;
+    /* transform: scale(1.2); */
+}
+
+#section2 .about a {
+    text-decoration: none;
+    color: #262a2b;
+    font-size: 1.3rem;
+}
+
+#section2 .about h3.year {
+    font-size: 1.3rem;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+#section2 .about h1,
+h2,
+h3,
+a,
+p {
+    margin: 5px;
+}
+
+#section3 {
+    background-color: #f3f3f3;
+    width: 100%;
+    height: 100;
+
+}
+
+#section3 .projects {
+    padding: 4rem 2rem 2rem 2rem;
+    text-align: center;
+}
+
+#section2 .about h1.heading {
+    margin-bottom: 2rem;
+}
+
+#section3 .projects h1.pro-heading {
+    margin-bottom: 2rem;
+}
+
+#section3 .projects h1.pro-heading {
+    font-size: 2.5rem;
+    color: #262a2b;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* #section3 .projects .project1 {
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+} */
+
+#section3 .projects .project1 img,
+.project2 img,
+.project3 img,
+.project4 img {
+    width: 600px;
+    box-shadow: 0px 0px 5px 2px #6e6e6e;
+    margin: 1.2rem 0rem;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+#section3 .projects .project1 h1,
+.project2 h1,
+.project3 h1,
+.project4 h1 {
+    font-size: 1.5rem;
+    color: #262a2b;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#section3 .projects .project1,
+.project2,
+.project3,
+.project4 {
+    margin-bottom: 1rem;
+}
+
+#section3 .projects .project1 a {
+    text-decoration: none;
+}
+
+#section3 .projects .project2 a {
+    text-decoration: none;
+}
+
+#section3 .projects .project3 a {
+    text-decoration: none;
+}
+
+#section3 .projects .project4 a {
+    text-decoration: none;
+}
+
+#section3 .projects .project1 img:hover {
+    width: 620px;
+}
+
+#section3 .projects .project2 img:hover {
+    width: 620px;
+}
+
+#section3 .projects .project3 img:hover {
+    width: 620px;
+}
+
+#section3 .projects .project4 img:hover {
+    width: 620px;
+}
+
+#footer .foot {
+    width: 100%;
+    height: 50px;
+    background-color: #262a2b;
+    color: #ddd;
+    text-align: center;
+}
+
+#footer .foot h3.maker {
+    padding-top: 20px;
+}
+
+#footer .foot h3.maker .name-style{
+    color: white;
+}
+
+
+/* @media screen and (max-width: 800px) {
+    #section3 .projects .project1 img:hover {
+      
+    }
+
+} */
+
+@media screen and (max-width: 400px) {
+    .social-links a {
+        margin: 10px;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .social-links a {
+        margin: 7px;
+        font-size: 15;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 300px) {
+    .social-links a {
+        margin: 5px;
+        font-size: 15;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 270px) {
+    .social-links a {
+        margin: 3px;
+        font-size: 12;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 270px) {
+    #header {
+        padding: 0 10px;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    #section1 .container h1 {
+        font-size: 2rem;
+        letter-spacing: 0.5rem;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 290px) {
+    #section1 .container h1 {
+        font-size: 1.5rem;
+        /* letter-spacing: 0.3rem; */
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 290px) {
+    #section1 .container h2 {
+        font-size: 1.5rem;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 290px) {
+    #section1 .container a {
+        font-size: 0.8rem;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    #section2 .about {
+        width: 90%;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 285px) {
+    #section2 .about {
+        width: 100%;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    #section2 .about h2.name {
+        width: 90%;
+        letter-spacing: 1px;
+        font-size: 1.6rem;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    #section2 .about p.para {
+        font-size: 1rem;
+        letter-spacing: 2px;
+
+    }
+
+}
+
+@media screen and (max-width: 430px) {
+    #section2 .about h2.name {
+        width: 90%;
+        font-size: 1.3rem;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 430px) {
+    #section2 .about p {
+        width: 90%;
+        font-size: 1.3rem;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+    #section2 .about p.para {
+        width: 95%;
+        font-size: 1rem;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    #section3 .projects .project1 h1.project-name {
+        font-size: 1.2rem;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    #section3 .projects .project2 h1.project-name {
+        font-size: 1.2rem;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    #section3 .projects .project3 h1.project-name {
+        font-size: 1.2rem;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    #section3 .projects .project4 h1.project-name {
+        font-size: 1.2rem;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    #section3 .projects .project1 img {
+        width: 400px;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    #section3 .projects .project2 img {
+        width: 400px;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    #section3 .projects .project3 img {
+        width: 400px;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    #section3 .projects .project4 img {
+        width: 400px;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    #section3 .projects .project1 img:hover {
+        width: 420px;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    #section3 .projects .project2 img:hover {
+        width: 420px;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    #section3 .projects .project3 img:hover {
+        width: 420px;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    #section3 .projects .project4 img:hover {
+        width: 420px;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 570px) {
+    #section3 .projects .project1 img {
+        width: 300px;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 570px) {
+    #section3 .projects .project2 img {
+        width: 300px;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 570px) {
+    #section3 .projects .project3 img {
+        width: 300px;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 570px) {
+    #section3 .projects .project4 img {
+        width: 300px;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 570px) {
+    #section3 .projects .project1 img:hover {
+        width: 320px;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 570px) {
+    #section3 .projects .project2 img:hover {
+        width: 320px;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 570px) {
+    #section3 .projects .project3 img:hover {
+        width: 320px;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 570px) {
+    #section3 .projects .project4 img:hover {
+        width: 320px;
+        transition: 0.5s;
+    }
+
+}
+
+/* //////////////////////////////// */
+@media screen and (max-width: 570px) {
+    #section3 .projects h1.pro-heading {
+        font-size: 2rem;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 570px) {
+    #section2 .about h1 {
+        font-size: 2rem;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+    #section2 .about h1 {
+        font-size: 1.8rem;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+    #section3 .projects h1.pro-heading {
+        font-size: 1.8rem;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+    #section3 .projects .project1 h1.project-name {
+        font-size: 1rem;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+    #section3 .projects .project2 h1.project-name {
+        font-size: 1rem;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+    #section3 .projects .project3 h1.project-name {
+        font-size: 1rem;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+    #section3 .projects .project4 h1.project-name {
+        font-size: 1rem;
+        transition: 0.5s;
+    }
+
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+@media screen and (max-width: 470px) {
+    #section3 .projects .project1 img {
+        width: 250px;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+    #section3 .projects .project2 img {
+        width: 250px;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+    #section3 .projects .project3 img {
+        width: 250px;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+    #section3 .projects .project4 img {
+        width: 250px;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+    #section3 .projects .project1 img:hover {
+        width: 270px;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+    #section3 .projects .project2 img:hover {
+        width: 270px;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+    #section3 .projects .project3 img:hover {
+        width: 270px;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+    #section3 .projects .project4 img:hover {
+        width: 270px;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+    #footer .foot h3.maker {
+       font-size: 8px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    #section3 .projects .project1 img {
+        width: 200px;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    #section3 .projects .project2 img {
+        width: 200px;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    #section3 .projects .project3 img {
+        width: 200px;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    #section3 .projects .project4 img {
+        width: 200px;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    #section3 .projects .project1 img:hover {
+        width: 220px;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    #section3 .projects .project2 img:hover {
+        width: 220px;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    #section3 .projects .project3 img:hover {
+        width: 220px;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    #section3 .projects .project4 img:hover {
+        width: 220px;
+        transition: 0.5s;
+    }
+
+}
+@media screen and (max-width: 320px) {
+    #footer .foot h3.maker{
+       font-size: 0.5rem;
+       letter-spacing: 1px;
+    }
+
+}
